@@ -7,6 +7,6 @@ router.get('/', stockCtrl.index)
 // Create
 router.post('/', stockCtrl.create)
 // Show
-router.get('/:id', stockCtrl.show)
+router.get('/:symbol', stockCtrl.show)
 
 module.exports = router
